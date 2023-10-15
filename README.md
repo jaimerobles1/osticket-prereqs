@@ -31,7 +31,47 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 >
 </p>
 <p>
-The image shows the creation of a resource group and virtual machine that was used to install and configure osTicket.
+The image shows the creation of a resource group and virtual machine that was used to install and configure osTicket.  The next step would be to connect to the virtual machine in a remote desktop connection so I can install everything needed to get osTicket up and running.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/w5yzEwi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I went in and enabled IIS by making sure that CGI and Common HTTP Features were enabled under World Wide Web Services.  Also making sure that IIS Management Console is also enabled in IIS.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/8ZRPIcx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+The image above shows IIS Manager set up with PHP Manager and CGI. It also shows osTicket is setup and ready to be configured.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/wTnJcHp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I went into PHP Manager on IIS, found the osTicket folder and while in the folder clicked on "Browse *:80" to enable php_opchache.dll, php_imap.dll, and php_intl.dll.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 

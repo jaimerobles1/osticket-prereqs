@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install PHP Manager, Rewrite Module, C++ Redist, HeidiSQL, and MySQL
 - Install osTicket and setup osTicket
 
-<h2>Installation Steps</h2>
+<h2>Installation</h2>
 
 <p>
 <<img width="916" alt="image" src="https://github.com/jaimerobles1/osticket-prereqs/assets/147941741/1da623a4-3ab2-4abc-820d-7d867dd6da47">
